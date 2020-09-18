@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang "id">
+<head>
+<meta charset="UTF-8">
+<title>Attack of Titan</title>
+<link rel="stylesheet" href="style.css"    
+</head>
+<body>
+<section class="sec">
+<header>
+    <a href="#"><img src="./image/logo.png"></a>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Divisi</a></li>
+        <li><a href="#">Titan Pedia</a></li>
+        <li><a href="#">Biografi</a></li>
+    </ul>
+</header>
+<div class="content">
+    <div class="textBox">
+        <h2>Shinzou Wo<br><span>SASAGEYO!!!</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolorum et quia distinctio veritatis tempora excepturi? Expedita enim, eveniet delectus id nemo accusamus asperiores at voluptatem fuga deserunt nobis molestias.</p><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate nemo mollitia laborum aspernatur quo sint iure deleniti dignissimos ex? Earum doloremque quaerat soluta tempora in quis accusamus saepe vel magni.</p>
+        <a href="#">Bergabung Dengan Kami</a>
+    </div>
+    <div class="imgBox">
+        <img src="./image/erwin.png" class="erwin">
+    </div>
+</div>
+<ul class="thumb">
+    <li><img src="./image/garrison.png" onclick="imgSlider('./image/garrison.png');changeBgColor('#e63946')"></li>
+    <li><img src="./image/surveycorps.png" onclick="imgSlider('./image/surveycorps.png');changeBgColor('#1d3557')"></li>
+    <li><img src="./image/brigade.png" onclick="imgSlider('./image/brigade.png');changeBgColor('#2a9d8f')"></li>
+</ul>
+</section>
+<script type="text/javascript">
+function imgSlider(anything){
+    document.querySelector('.erwin').src = anything;
+}
+function changeBgColor(color){
+    const sec = document.querySelector('.sec');
+     sec.style.background = color;
+}
+</script>
+</body>
+</html>
