@@ -23,9 +23,9 @@
 
 
 ## 📝 License
-- Copyright © 2020 Ahmad Saugi.
+- Copyright © 2020 Shafwana Musyaffa.
 - **open-sourced software licensed under the MIT license.**
 
 ------------
 
-- **Made with ❤️ by Shafwana .**
+- **Made with ❤️ by Shafwana Musyaffa.**
