@@ -1,5 +1,3 @@
-<h1 align="center">Selamat datang di KelasKita! 👋</h1>
-
 ![Landing Page](https://raw.githubusercontent.com/HimawanRenn/AOT-Landing-Page/master/screenshoot.jpg)
 
 
