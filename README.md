@@ -28,4 +28,4 @@
 
 ------------
 
-- **Made with ❤️ by Shafwana Musyaffa.**
+- **Made with ❤️ by Shafwana.**
